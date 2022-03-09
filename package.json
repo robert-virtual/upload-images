@@ -1,0 +1,23 @@
+{
+  "name": "upload-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1046.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.3.1",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "uuid": "^8.3.2"
+  }
+}
